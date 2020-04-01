@@ -66,6 +66,7 @@ endif
 :set fileformats=unix,dos,mac
 
 "### バックアップファイルを作成しない
+:set backupdir=/tmp
 :set nobackup
 
 "### ステータスライン設定
