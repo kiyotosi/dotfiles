@@ -66,8 +66,10 @@ endif
 :set fileformats=unix,dos,mac
 
 "### バックアップファイルを作成しない
-:set backupdir=/tmp
 :set nobackup
+
+"### undoファイル(.*un~)を作成しない
+:set noundofile
 
 "### ステータスライン設定
 " ステータスラインを常に表示（0:表示しない 1:２つ以上ウィンドウがあるときだけ表示 2:常に表示）
