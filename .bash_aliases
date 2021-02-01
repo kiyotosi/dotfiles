@@ -1,3 +1,4 @@
+# alias
 alias a='alias' 
 alias g='grep'
 alias h='history'
@@ -17,3 +18,12 @@ alias googler='googler -n 4 --show-browser-logs'
 alias gg='googler -n 4 --show-browser-logs'
 alias pbcopy='xsel --clipboard --input'
 alias pbpaste='xsel --clipboard --output'
+# function
+
+# calc
+# Example
+#  $ calc '1+2-3*4/5'
+#  0.6
+calc() {
+        awk "BEGIN{ print $print $*}"
+}
