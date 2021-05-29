@@ -11,3 +11,7 @@ for i in $DOT_FILES
 do
     ln -s $HOME/dotfiles/$i $HOME/$i
 done
+
+echo "一部のaliasには以下のパッケージが必要"
+echo "・translate-shell"
+echo "・googler"

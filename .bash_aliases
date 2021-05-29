@@ -16,8 +16,6 @@ alias tj='trans :ja'
 alias te='trans :en'
 alias googler='googler -n 4 --show-browser-logs'
 alias gg='googler -n 4 --show-browser-logs'
-alias pbcopy='xsel --clipboard --input'
-alias pbpaste='xsel --clipboard --output'
 # function
 
 # calc

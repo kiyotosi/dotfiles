@@ -17,22 +17,11 @@ cd ~/dotfiles
 ./setup.sh
 
 ２．本ファイルについて
-本リポジトリでは、以下の設定ファイルを扱う。
+以下の設定ファイルを扱う。
 ・bash
-・fbterm 
-・mozc
 ・tmux
 ・vim
-・w3m
-
-aliasは以下を扱う。
-
 
 メモ
 ・Windows上で動くアプリからterminalへのコピー Shift + Insert
-
-Todo
-・tmux DM200設定 if分でわける
-・fbterm フォントサイズ切り替え設定
-
 
