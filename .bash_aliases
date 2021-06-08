@@ -1,4 +1,4 @@
-# alias
+### alias ###
 alias a='alias' 
 alias g='grep'
 alias h='history'
@@ -16,12 +16,22 @@ alias tj='trans :ja'
 alias te='trans :en'
 alias googler='googler -n 4 --show-browser-logs'
 alias gg='googler -n 4 --show-browser-logs'
-# function
 
-# calc
+### function ###
+
+# calc()
+# calculator
 # Example
 #  $ calc '1+2-3*4/5'
 #  0.6
 calc() {
         awk "BEGIN{ print $print $*}"
+}
+
+# logd()
+# Put the date in the log
+# Example
+#   $ tail -f xxxxxx.log | logdate
+logd() {
+	awk '{printf("%s %s\n", strftime("%F %T"), $0)}'
 }

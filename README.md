@@ -24,4 +24,5 @@ cd ~/dotfiles
 
 メモ
 ・Windows上で動くアプリからterminalへのコピー Shift + Insert
-
+・googlerはバージョンが古いと、正常に動かない。アップグレード方法は以下。
+  $ sudo googler -u
