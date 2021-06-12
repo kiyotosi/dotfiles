@@ -3,8 +3,7 @@
 1. dotfilesとは
   以下抜粋。
 
-・ようこそdotfilesの世界へ - Qiita  
-  (参考)https://qiita.com/yutakatay/items/c6c7584d9795799ee164  
+- [ようこそdotfilesの世界へ - Qiita  ](https://qiita.com/yutakatay/items/c6c7584d9795799ee164)  
   dotfilesとは、ホームディレクトリに置いてあるドット(.)から始まる設定ファイル(
   .bashrcとか)を管理しているリポジトリのことである。  
   シェルやエディタの設定からアプリケーションの設定まで幅広いものが置かれている。  
