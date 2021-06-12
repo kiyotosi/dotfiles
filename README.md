@@ -12,9 +12,9 @@
 
 ２．インストール方法
 ~~~cd ~
-git clone https://github.com/kiyotosi/dotfiles.git
-cd ~/dotfiles
-./setup.sh
+$ git clone https://github.com/kiyotosi/dotfiles.git
+$ cd ~/dotfiles
+$ ./setup.sh
 ~~~
 ２．本ファイルについて
 以下の設定ファイルを扱う。
