@@ -11,11 +11,11 @@
   dotfilesはGitなどでバージョン管理されており、GitHubで公開されていることが多い。
 
 ２．インストール方法
-cd ~
+~~~cd ~
 git clone https://github.com/kiyotosi/dotfiles.git
 cd ~/dotfiles
 ./setup.sh
-
+~~~
 ２．本ファイルについて
 以下の設定ファイルを扱う。
 ・bash
