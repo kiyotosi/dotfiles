@@ -1,7 +1,7 @@
 # dotfiles
 
-1. dotfilesとは
-  以下抜粋。
+1. dotfilesとは  
+  以下抜粋。  
 
 - [ようこそdotfilesの世界へ - Qiita  ](https://qiita.com/yutakatay/items/c6c7584d9795799ee164)  
   dotfilesとは、ホームディレクトリに置いてあるドット(.)から始まる設定ファイル(
