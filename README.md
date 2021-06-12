@@ -1,8 +1,5 @@
 # dotfiles
-## 1. Item 1
-## 1. Item 2
-## 1. Item 3
-## 1. dotfilesとは
+## dotfilesとは
   以下抜粋。  
 
 - [ようこそdotfilesの世界へ - Qiita  ](https://qiita.com/yutakatay/items/c6c7584d9795799ee164)  
@@ -11,14 +8,14 @@
   シェルやエディタの設定からアプリケーションの設定まで幅広いものが置かれている。  
   dotfilesはGitなどでバージョン管理されており、GitHubで公開されていることが多い。  
 
-## 1. Iインストール方法  
+## インストール方法  
 ~~~cd ~
 $ git clone https://github.com/kiyotosi/dotfiles.git
 $ cd ~/dotfiles
 $ ./setup.sh
 ~~~
 
-## 1. 本ファイルについて
+## 本ファイルについて
 以下の設定ファイルを扱う。
 - bash  
 - tmux  
