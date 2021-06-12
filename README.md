@@ -1,6 +1,8 @@
 # dotfiles
-
-## 1. dotfilesとは  
+1. Item 1
+1. Item 2
+1. Item 3
+## 1. dotfilesとは
   以下抜粋。  
 
 - [ようこそdotfilesの世界へ - Qiita  ](https://qiita.com/yutakatay/items/c6c7584d9795799ee164)  
