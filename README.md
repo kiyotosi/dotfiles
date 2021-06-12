@@ -9,7 +9,7 @@
   シェルやエディタの設定からアプリケーションの設定まで幅広いものが置かれている。  
   dotfilesはGitなどでバージョン管理されており、GitHubで公開されていることが多い。  
 
-## 1. インストール方法
+## 1. インストール方法  
 ~~~cd ~
 $ git clone https://github.com/kiyotosi/dotfiles.git
 $ cd ~/dotfiles
