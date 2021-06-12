@@ -18,9 +18,9 @@ $ ./setup.sh
 ~~~
 ２．本ファイルについて
 以下の設定ファイルを扱う。
--bash
--tmux
--vim
+- bash  
+- tmux  
+- vim  
 
 メモ
 ・Windows上で動くアプリからterminalへのコピー Shift + Insert
