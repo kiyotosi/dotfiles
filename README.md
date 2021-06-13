@@ -69,7 +69,7 @@ $ while : ;do sleep 1 ; df -h;done | logd
 
 
 ## メモ
-- Windows上で動くアプリからterminalへのコピー `Shift + Insert`  
+- Windows上で動くアプリからWindows terminalへのコピー `Shift + Insert`  
 - googlerはバージョンが古いと、正常に動かない。アップグレード方法は以下。  
 ~~~
 $ sudo googler -u
