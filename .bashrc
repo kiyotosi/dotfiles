@@ -28,7 +28,7 @@ shopt -s checkwinsize
 #shopt -s globstar
 
 # make less more friendly for non-text input files, see lesspipe(1)
-#[ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"
+[ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"
 
 # set variable identifying the chroot you work in (used in the prompt below)
 if [ -z "${debian_chroot:-}" ] && [ -r /etc/debian_chroot ]; then
@@ -79,18 +79,22 @@ if [ -x /usr/bin/dircolors ]; then
     #alias dir='dir --color=auto'
     #alias vdir='vdir --color=auto'
 
-    #alias grep='grep --color=auto'
-    #alias fgrep='fgrep --color=auto'
-    #alias egrep='egrep --color=auto'
+    alias grep='grep --color=auto'
+    alias fgrep='fgrep --color=auto'
+    alias egrep='egrep --color=auto'
 fi
 
 # colored GCC warnings and errors
 #export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 
 # some more ls aliases
-#alias ll='ls -l'
-#alias la='ls -A'
-#alias l='ls -CF'
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
+
+# Add an "alert" alias for long running commands.  Use like so:
+#   sleep 10; alert
+alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
 
 # Alias definitions.
 # You may want to put all your additions into a separate file like
@@ -111,39 +115,4 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
-
-# PATH
-PATH=$PATH:/opt/bin:/opt/local/bin
-PATH=$PATH:/usr/local/bin
-PATH=$PATH:$HOME/bin
-
-# For Golang
-GOPATH=$HOME/go
-PATH=$PATH:/usr/local/go/bin
-
-###
-### For DM200 Setting
-###
-# Display Battery on Prompt
-#PS1=$PS1"[$(/home/dm200/bin/batt)] \w \$ "
-
-# For googler
-BROWSER=w3m
-
-# For fbterm
-alias fbterm="LANG=ja_JP.UTF-8 fbterm"
-
-case "$TERM" in
-  linux)
-    # 注意！ loadkeysにはスティッキービットが必要。
-    # あらかじめ以下のコマンドで設定しておくこと
-    # sudo chmod +s /bin/loadkeys
-    loadkeys /opt/local/share/keymaps/dm200_console.map
-    LANG=ja_JP.UTF-8 fbterm -- uim-fep -e tmux
-    #setterm --blank 1
-	;;
-  *)
-    LANG=ja_JP.UTF-8
-    tmux
-	  ;;
-esac
+#

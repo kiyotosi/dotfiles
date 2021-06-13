@@ -16,5 +16,6 @@ echo "一部のaliasには以下のパッケージが必要"
 echo "・translate-shell"
 echo "・googler"
 echo "・xsel"
-
-echo "sudo apt install trans googler xsel"
+echo "Install方法"
+echo "  Debian/Ubuntu sudo apt install trans googler xsel"
+echo "  RHEL/CentOS   調査中"

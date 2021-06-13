@@ -103,3 +103,9 @@ endif
 :set clipboard^=unnamed
 " クリップボード連携を有効にしたとき、BackSpace (Delete)が効かない件の対策
 :set backspace=indent,eol,start
+"翻訳
+" te:選択範囲(Shift + v)を英語に翻訳
+" tj:選択範囲(Shift + v)を日本語に翻訳
+vnoremap te :w !trans -b -sl=ja -tl=en<CR>
+vnoremap tj :w !trans -b -sl=en -tl=ja<CR>
+
