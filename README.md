@@ -21,7 +21,8 @@ $ ./setup.sh
 - tmux  
 - vim  
 
-## 便利なコマンド
+
+## Bash 便利なコマンド
 ### 翻訳(英語→日本語) `tj`
 ~~~
 $ echo "Hello world" | tj -b
@@ -60,6 +61,12 @@ $ while : ;do sleep 1 ; df -h;done | logd
 2021-06-12 21:56:36 none            6.2G     0  6.2G   0% /dev
 2021-06-12 21:56:36 none            6.2G  4.0K  6.2G   1% /run
 ~~~
+
+## vim 便利なコマンド
+### 選択範囲の翻訳
+- 英語→日本語 viのノーマルモードで、翻訳したい文章を選択した後、tjと入力
+- 日本語→英語 viのノーマルモードで、翻訳したい文章を選択した後、teと入力
+
 
 ## メモ
 - Windows上で動くアプリからterminalへのコピー `Shift + Insert`  
