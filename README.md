@@ -24,6 +24,7 @@ $ ./setup.sh
 
 ## Bash 便利なコマンド
 ### 翻訳(英語→日本語) `tj`
+※ translate-shellが必要。 translate-shellのインストール方法はメモ参照。
 ~~~
 $ echo "Hello world" | tj -b
 こんにちは世界
@@ -73,4 +74,9 @@ $ while : ;do sleep 1 ; df -h;done | logd
 - googlerはバージョンが古いと、正常に動かない。アップグレード方法は以下。  
 ~~~
 $ sudo googler -u
+~~~
+- translate-shell https://github.com/soimort/translate-shell
+~~~
+Debian、Ubuntuの場合
+$ sudo apt install translate-shell
 ~~~
